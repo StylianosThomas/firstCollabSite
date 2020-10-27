@@ -23,7 +23,8 @@ h1 {
 nav {
     background-color: orangered;
     color: #fff;
-    font-size: 18px;
+    padding: 2px;
+    font-size: 20px;
 }
 
 ul {
