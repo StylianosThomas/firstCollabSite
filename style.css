@@ -6,7 +6,6 @@
 
 body {
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
-    margin: 10px;
 }
 
 header {
@@ -17,6 +16,7 @@ header {
 
 h1 {
     align-items: center;
+    vertical-align: middle;
     font-size: 50px;
     font-family: "Architects Daughter", sans-serif;
 }
@@ -58,6 +58,7 @@ table {
 
 thead {
     padding: 40px;
+    background-color: rgb(170, 142, 142);
 }
 
 tr {
@@ -73,10 +74,9 @@ tfooter {
     padding: 40px;
 }
 
-tr > td:hover {
+.players:hover {
     background-color: rgb(160, 214, 245)
 }
-
 
 footer {
     background-color: #0055a5;
