@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-body {
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+:root {
+    text-align: center;
 }
 
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    margin: 10px;
+}
 
 header {
     background-color: #0055a5;
     color: #fff;
+    
+}
 
+h1 {
+    align-items: center;
+    font-size: 40px;
+    font-family: "Architects Daughter", sans-serif;
 }
 
 nav {
@@ -23,13 +33,13 @@ ul {
 
 li {
     display: inline;
+    padding: 20px;
 }
 
 li a {
-    display: block;
-    padding: 20px;
     text-align: center;
     width: 20px;
+    text-decoration: none;
 }
 
 li a:hover {
@@ -37,18 +47,23 @@ li a:hover {
     color: white;
 }
 
-h1 {
-    font-family: "Architects Daughter", sans-serif;
-}
-
 table {
     border: 2px solid black;
     text-align: center;
-    padding: 15px;
+    width: max-content;
+    
+}
+
+tr {
+    padding: 20px;
 }
 
 th, td {
     border-bottom: 1px solid #ddd;
+}
+
+tfooter {
+    padding: 30px;
 }
 
 tr:hover {
@@ -65,4 +80,7 @@ footer {
     padding: 30px;
 }
 
-
+img {
+    height: 200px;
+    width: 80px;
+}
