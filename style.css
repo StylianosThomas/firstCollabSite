@@ -23,7 +23,6 @@ h1 {
 
 nav {
     background-color: orangered;
-    color: #fff;
     padding: 2px;
     font-size: 18px;
 }
@@ -33,7 +32,6 @@ ul {
 }
 
 li {
-    color: #fff;
     display: inline;
     padding: 20px;
 }
