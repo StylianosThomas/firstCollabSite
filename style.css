@@ -24,7 +24,6 @@ h1 {
 nav {
     background-color: orangered;
     padding: 2px;
-    font-size: 18px;
 }
 
 ul {
@@ -33,13 +32,15 @@ ul {
 
 li {
     display: inline;
-    padding: 20px;
 }
 
 li a {
+    font-size: 20px;
+    color: #fff;
     text-align: center;
     width: 20px;
     text-decoration: none;
+    padding: 20px;
 }
 
 li a:hover {
