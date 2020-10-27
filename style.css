@@ -33,6 +33,7 @@ ul {
 }
 
 li {
+    color: #fff;
     display: inline;
     padding: 20px;
 }
@@ -86,5 +87,5 @@ footer {
 
 img {
     height: 400px;
-    width: 280px;
+    width: 300px;
 }
