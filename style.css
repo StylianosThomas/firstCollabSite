@@ -11,7 +11,7 @@ body {
 header {
     background-color: #0055a5;
     color: #fff;
-    
+    padding: 20px;
 }
 
 h1 {
@@ -24,8 +24,8 @@ h1 {
 nav {
     background-color: orangered;
     color: #fff;
-    padding: 5px;
-    font-size: 16px;
+    padding: 2px;
+    font-size: 18px;
 }
 
 ul {
@@ -58,7 +58,7 @@ table {
 
 thead {
     padding: 40px;
-    background-color: rgb(170, 142, 142);
+    background-color: lightgrey;
 }
 
 tr {
@@ -81,10 +81,10 @@ tfooter {
 footer {
     background-color: #0055a5;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
 }
 
 img {
     height: 400px;
-    width: 250px;
+    width: 260px;
 }
